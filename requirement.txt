@@ -1,0 +1,8 @@
+Book
+- id : string / varchar(255) | primary | not null
+- title : string / varchar(255) | not null
+- author : string / varchar(255) | not null
+- published : string / varchar(255) | not null
+- is_completed : bool / tinyint(1) | not null
+- created_at : datetime | not null
+- updated_at : datetime | not null
